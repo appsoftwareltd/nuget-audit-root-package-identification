@@ -424,9 +424,9 @@ class VulnerabilityInfo
 ---
 # NuGet Package Vulnerability Report
 
-**Generated:** 2025-11-27 19:09:40
+**Generated:** 2025-01-01 00:00:00
 
-**Total Vulnerabilities Found:** 14
+**Total Vulnerabilities Found:** 4
 
 ## Solution: ExampleApp.sln
 
@@ -458,6 +458,8 @@ class VulnerabilityInfo
 3. **Low Severity**: Update during regular maintenance
 
 ### How to Update Packages
+
+Ideally, update the root package. If you need to override the vulnerable dependency you can do so as follows, but with an awareness that this can create behavioural changes in your application.
 
 ```bash
 # Update a specific package in a project
